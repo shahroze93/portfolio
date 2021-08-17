@@ -1,0 +1,192 @@
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo', sans-serif; 
+}
+/* font family applied above so that all text inclding headings and buttons can be Exo font */
+
+
+/*Creating the top banner with assistance from https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topBanner {
+  background-color: #02182e;
+  overflow: hidden;
+  position: fixed;
+  width: 100%
+}
+
+.topBanner a {
+  float: Right;
+  color: white;
+  display: block ;
+  font-family: helvetica;
+  text-align: center;
+  padding: 20px 2%;
+  text-decoration: none;
+  font-size: 15px;
+} 
+
+.topBanner a:hover {
+  background: #A5F4B1;
+  color: black;
+}
+
+/* Top Image & Title */
+
+#star {
+  height: 400px;
+  width: auto;
+}
+
+.topImage {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -1;
+  background-color: #000000;
+}
+
+/* For overlay text took assistance from https://www.w3schools.com/howto/howto_css_image_text.asp */
+.introH1 {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.introH1 h1 {
+  font-size: 50px;
+  color: #ffc400;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  background-size: cover;
+}
+
+#introH2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #07192E, #5A0B4E);
+  background-size: 105%;
+}
+
+#profileImg {
+  margin: 20px 0px 20px 0px;
+  border: 7px solid #A5F4B1;
+  border-radius: 50%;
+  height: 250px;
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px 0 20px;
+  color: white;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* My Projects */
+.projects {
+  background-color: #29033a80;
+  background-size: cover;
+  width: 100%;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: white;
+  border: 2px solid #a5f4b1;
+  border-radius: 4px;
+  margin: 10px 7px;
+  width: 375px;
+  height: 200px
+}
+
+.inline-block:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+/* comment box */
+/* Took assistance from https://www.w3schools.com/howto/howto_css_contact_form.asp */
+.commentbox {
+  border-radius: 5px;
+  background-color: #9b6a96;
+  padding: 30px 4% 20px;
+  width: 45%;
+  min-width: 400px;
+  margin: 0 auto 30px;
+  border: 2px solid #A5F4B1;
+}
+
+input[type=text], textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 2px solid #a5f4b1;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin: 6px 0 16px 0; 
+}
+
+#message {
+  height: 100px;
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #0F2A42;
+  color: white;
+  padding: 12px 30px;
+  border: 2px solid #A5F4B1;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #a5f4b1;
+  color: black;
+}
+
+
+/* Footer Banner */
+footer {
+  background-color: #02182e;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  color: white
+}
+
+.bottombanner a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  font-size: 25px;
+} 
+
+.bottombanner a:hover {
+  background: #A5F4B1;
+  color: black;
+}
+
+footer p{
+  font-size: 12px;
+  padding: 0px auto 20px;
+
+}
